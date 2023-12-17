@@ -326,7 +326,7 @@ body h2 {
 }
 .typing {
     display: none;
-    width: 100% !important;
+    width: 80% !important;
     position: fixed;
     height: 100%;
     /* background-color: -webkit-radial-gradient(center, ellipse cover, #f03033 0%, #690000 100%); */

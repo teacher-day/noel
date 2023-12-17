@@ -152,7 +152,7 @@ async function showText() {
     // document.querySelector('.ty-text').style.backgroundColor = '#a00707';
 
     document.querySelector('.t3').style.display = 'flex';
-    await sleep(1000);
+    await sleep(2000);
     document.querySelector('.t3').style.display = 'none';
 
     // changeBackground()
@@ -165,7 +165,7 @@ async function showText() {
     document.querySelector('.background-none')
     document.querySelector('.background-none').style.display = 'none';
     document.querySelector('.typing').style.display = 'flex';
-    let html = `<span class="wrap" style='padding: 24px; background-color: rgb(105, 15, 15); color: white;'>Giáng sinh an lành</span>`
+    let html = `<span class="wrap" style='padding: 24px; background-color: rgb(105, 15, 15); color: white;'>Giáng sinh an lành 🥰🥰🥰</span>`
         jQuery(html).hide().appendTo("#type1").fadeIn(500, function(){
             var el = jQuery(this);
             setTimeout(function(){
@@ -235,14 +235,13 @@ async function typing () {
     const data = [
         "Đã có ai gửi lời chúc giáng sinh cho Thảo Anh chưa.?</span>",
         "Nếu chưa thì anh là người đầu tiên rồi!!!: D.", 
-        "Thảo Anh có biết Anh muốn nói điều gì không?.",
-        "Chúc Thảo Anh giáng sinh an lành, vui vẻ, ấm áp",
-        "Khi nào em cần, anh luôn có mặt :))",
+        "Em có biết, anh muốn nói điều gì không?.",
+        "Chúc em giáng sinh an lành, vui vẻ, ấm áp",
         "Đừng tìm những thứ <span style='color: white;padding:16px;background-color: green;'>đặc biệt</span>", 
         "Bởi vì", 
-        "Thảo Anh chính là điều <span style='color: white;padding:16px;background-color: green;'>đặc biệt</span> trong mắt anh!!!: D",
+        "Thảo Anh chính là điều <span style='color: white;padding:16px;background-color: green;'>đặc biệt</span>!!!: D",
         "<span style='font-size: 100px'>VÀ</span>", 
-        "Chúc em luôn luôn tươi cười, vui vẻ mỗi ngày. Giáng sinh an lành nhé!!!!"
+        "Chúc em luôn luôn tươi cười, vui vẻ mỗi ngày. Chúc em thi tốt. Giáng sinh an lành nhé!!!!."
     ];
     for (const key in data) {
         let html = `<span class="wrap">${data[key]}</span>`
@@ -261,7 +260,7 @@ async function typing () {
         // jQuery(html).remove();
     }
     document.querySelector('#end').style.display = 'flex';
-
+    document.querySelector('#animated-link').style.display = 'block';
     // document.querySelector('.typing').style.display = 'block';
     // var elements = document.getElementsByClassName('typewrite');
     // for (var i=0; i<elements.length; i++) {

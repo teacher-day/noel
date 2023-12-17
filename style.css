@@ -1129,3 +1129,38 @@ body {
         width: 20px;
     }
 }
+#animated-link {
+    display: none;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 26px;
+    background: darkred;
+    border-radius: 20px;
+    width: 330px;
+    margin-top: -50px;
+    margin-left: 97px;
+  }
+  @media screen and (max-width: 600px) {
+    #animated-link {
+        margin-top: 20px;
+        margin-left: unset;
+    }
+   }
+  .shake {
+    animation: shake 0.5s infinite;
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+  }
