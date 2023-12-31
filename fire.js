@@ -2279,7 +2279,7 @@ if (IS_HEADER) {
 	init();
 } else {
 	// Allow status to render, then preload assets and start app.
-	setLoadingStatus('Gift for Thảo Anh');
+	setLoadingStatus('');
 	setTimeout(() => {
 		soundManager.preload()
 		.then(
