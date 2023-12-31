@@ -315,7 +315,27 @@ body {
       font-size:50px;
       margin-top: 70px;
   }
+  .msg1 {
+    font-size: 17px !important;
+    top: 90% !important;
+  }
+  .year {
+    top: 435px;
+  }
   .year > span {
     font-size: 120px;
   }
+}
+.msg1 {
+  width: 100%;
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  color: orangered;
+  opacity: 0.8;
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  z-index: 1000;
+  opacity: 0,8;
 }
